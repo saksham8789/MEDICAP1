@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style type="text/css">
+	body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+		body {
+			background-image: url("back.jpeg");
+		}
+		input,select,button{
+			width:80%;
+			padding: 10px 10px;
+			margin:8px 0;
+			display:inline-block;
+			border-radius:4px;
+			box-sizing: border-box;
+
+  }
+
+		}
+		
+
+		
+		form{
+			margin-left: 20%;
+			
+			
+		}
+		div{
+			margin-left: 30%;
+			width:500px;
+			height:800px;
+			padding: 15px;
+			border-radius: 5px;
+			background-color: #fff;
+            box-shadow: 10px 10px 5px grey;
+		}
+	
+		input[type=radio],select{
+			width:5%;
+			margin:8px 0;
+			display:inline-block;
+			border-radius:4px;
+		}
+	
+		label{
+			display:block;
+			width: 30px;
+			color: black;
+       }
+		select{
+			width:80%;
+			padding: 10px 10px;
+			margin:8px 0;
+			display:inline-block;
+			border-radius:4px;
+			box-sizing: border-box;
+		}
+		button[type=submit],button[type=reset] {
+    background-color:#008CBA;
+    color:white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+    border-radius:5px; 
+
+}
+	button:hover {
+    opacity:1;
+}
+
+
+	</style>
+
+<body>
+	
+	
+<div >
+		<center><h2 style="">Doctor's Sign up here</h2></center>
+		<form action="" method="post" class="w3-container">
+			<input type="text" id="name" name="Name" placeholder="Enter your name" class="w3-input" required>
+
+		<input type="email" name="email" placeholder="abc@gmail.com" autocomplete="on" class="w3-input" required>
+
+		<input type="password" name="Password" placeholder="Password" class="w3-input" required>
+			
+			<input type="password" placeholder="Confirm Password" id="confirm_password" class="w3-input" required>
+		<input type="MCI" placeholder="Enter your MCI no." class="w3-input" required>
+		<input type="speciality" placeholder="Enter speciality" class="w3-input" required>
+		 <input type="file" name="deg" accept="file/*">
+                
+			<input type="tel" name="usertel" maxlength="10" placeholder="Enter mob. number" class="w3-input"required><br>
+			
+			<input type="radio" name="gender" value="male" checked>Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="other">Other
+        
+            <input type="date"name="bday" placeholder="dd/mm/yyyy" class="w3-input" required>
+        
+            <input type="text" name="city" placeholder="enter your city" class="w3-input" required>
+          
+	    <select name="State"class="w3-input" required>
+		<option value="" disabled selected>State</option>
+		<option name="MP">Madhya Pradesh</option>
+		<option name="UP">Uttar Pradesh</option>
+		<option name="J&K">Jammu and kashmir</option>
+		<option name="Chattisgarh">Chattisgarh</option>
+		<option name="Maharastra">Maharasthra</option>
+		<option name="Goa">Goa</option>
+		<option name="Tamil Nadu">Tamil Nadu</option>
+		<option name="Gujrat">Gujrat</option>
+		<option name="Delhi">Delhi</option>
+		<option name="Kanarnatak">Kanarnatak</option>
+		<option name="Rajasthan">Rajasthan</option>
+		<option name="utrakhand">Utrakhand</option>
+	</select>
+	
+	<select name="Country" class="w3-input">
+		<option value="" disabled selected>Country</option>
+		<option name="India">India</option>
+         </select>
+     <button type="submit" class="signupbtn" >Sign Up</button>
+      <button type="reset">Reset</button>
+ 
+</form>
+
+
+	</div>
+	
+</body>
+</head>
+
+<body>
+
+</body>
+</html>
